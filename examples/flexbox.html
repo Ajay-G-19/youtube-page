@@ -1,0 +1,167 @@
+<div class="fle">
+  <div class="flex">200px</div>
+  <div class="flex2">75px</div>
+  <div class="flex3">1</div>
+</div>
+
+
+
+<style>
+  .fle{
+    height: 50px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    
+  }
+  .flex{
+    
+    background-color: lightcoral;
+  }
+  .flex2{
+    
+    background-color:lightskyblue;
+  }
+  .flex3{
+     
+     background-color: lightcoral;
+  }
+</style>
+
+<div class="temp">
+  <p class="hom">Home</p>
+  <input class="ser" type="search" placeholder="Search">
+  <button class="but">Download</button>
+</div>
+
+<style>
+  div{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .temp{
+    background-color: rgb(119, 75, 159);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .hom{
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    margin-left: 10px;
+  }
+  .ser{
+    border-radius: 25px;
+    width: 400px;
+    height: 30px;
+    border: none;
+    padding-left: 10px;
+    
+  }
+  .but{
+    color: white;
+    border-color: white;
+    border-radius: 2px;
+    border-width: 1px;
+    width:80px;
+    height: 35px;
+    border-style: solid;
+    background-color: rgb(119, 75, 159);
+    margin-right: 5px;
+  }
+</style>
+
+
+<div class="flexbox">
+  <div class="flex1">
+    <div class="text">Item1</div>
+  </div>
+  <div class="flex11"></div>
+</div>
+  <style>
+    .flexbox{
+      width:300px;
+      height: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 10px;
+      border-width: 1px;
+      border-style: solid;
+    }
+    .flex1{
+      width:100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      background-color: lightcoral;
+    }
+    .text{
+     color: white;
+     background-color: black;
+    }
+    .flex11{
+      width:200px;
+      background-color:lightblue;
+    }
+  </style>
+
+
+<div class="flexbox2">
+  <div class="flex9"></div>
+  <div class="flex10">
+    <div class="text1">Item1</div>
+    <div class="textt">
+    <div class="textt-1">Item2</div>
+    <div class="textt-2">Item3</div>
+  </div>
+  </div>
+</div>
+
+  
+<style>
+    .flexbox2{
+      width:300px;
+      height: 50px;
+      flex-direction: row;
+      display: flex;
+      justify-content: left;
+      border-width: 1px;
+      border-style: solid;
+      margin-top: 10px;
+    }
+    .flex9{
+      width:100px;
+      background-color:lightskyblue;
+    }
+    .flex10{
+      width:200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      background-color: lightcoral;
+      margin: 0px;
+      column-gap: 0px;
+    }
+    .text1{
+    }
+    .textt{
+      display: flex;
+      justify-content: space-between;
+    }
+    .textt-1{
+     color: white;
+     background-color: black;
+    }
+    .textt-2{
+     color: white;
+     background-color: black;
+    }
+   
+</style>

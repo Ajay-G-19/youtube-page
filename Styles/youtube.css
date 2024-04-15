@@ -1,0 +1,110 @@
+/* In the below code, I used class names same for all elements where CSS values are same and can applicable for every element */
+.video-grid{
+  display: grid;
+  column-gap: 20px;
+  row-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+/* resizing page based on size without squeezing the data */
+@media (max-width:600px){
+.video-grid{
+  grid-template-columns:1fr 1fr;
+}
+}
+
+@media (min-width:751px) and (max-width:1199px){
+  .video-grid{
+    grid-template-columns:1fr 1fr 1fr;
+  }
+  }
+
+@media (min-width:1200px){
+  .video-grid{
+    grid-template-columns:1fr 1fr 1fr 1fr;
+  }
+  }
+.img{
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+  border-radius: 10px;
+}
+.video-info-grid{
+  display: grid;
+  grid-template-columns: 40px 1fr;
+}
+.channel-head{
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.channel,
+.channel-views{
+  font-size: 12px;
+  color:  rgb(120, 118, 118);
+  margin: 2px;
+}
+.DPsize{
+  width:50px;
+  position: relative;
+}
+.DP{
+  border-radius: 50px;
+  width:30px;
+}
+.DPs{
+  margin-right: 8px;
+}
+.channelname{
+  font-weight: 800;
+  color: black;
+  font-size: 8px;
+}
+.channelsubs{
+  font-weight: 500;
+  font-size: 6px;
+  color: darkgrey;
+}
+.DPsize .tooltop{
+  font-family: Roboto,Ariel;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  line-height: 10px;
+  width:120px;
+  height: 40px;
+  border-width: 1px;
+  border-color: darkgray;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 3px 3px 3px 3px;
+  box-shadow: rgb(120, 118, 118);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.DPsize:hover .tooltop{
+  background-color: rgb(238, 237, 237);
+  opacity: 1;
+}
+.video-info{
+  font-family: Roboto,Ariel;
+  width: 236.33px;
+}
+.video-row{
+  position: relative;
+}
+.video-time{
+  font-family: Roboto,arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 2px 2px 2px 2px;
+  border-radius: 3px;
+  position: absolute;
+  right: 5px;
+  bottom: 20px;
+  background-color: black;
+  color: white;
+}

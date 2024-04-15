@@ -1,0 +1,152 @@
+
+<button class="subscribe-button">SUBSCRIBE</button>
+<button class="join-button">JOIN</button>
+<button class="tweet-button">Tweet</button>
+<button class="uber-button">Request now</button>
+<button class="amazon-button">Add to Cart</button>
+<button class="git-button">Sign up</button>
+<button class="linkedin-button">Apply on company website</button>
+<!--we can create css and html in differnt tabs and combine using <link> and rel and href -->
+<style>
+  p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .subscribe-button {
+    background-color: rgb(184, 52, 52);
+    color: white;
+    border-width: 1px;
+    height: 35px;
+    width: 100px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-bottom: 10px;
+  }
+
+  .subscribe-button:hover{
+    background-color: rgb(129, 67, 67);
+    border-width: 3px;
+  }
+  
+  .subscribe-button:active{
+    background-color: burlywood;
+  }
+
+
+  .join-button{
+    background-color: white;
+    border-color: rgb(94, 177, 236);
+    border-style: solid;
+    color: rgb(94,177,236);
+    height: 35px;
+    width: 60px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.15s, color 1s;
+  }
+
+  .join-button:hover{
+    background-color: rgb(31, 123, 243);
+    color: white;
+  }
+  .join-button:active{
+    opacity: 0.8;
+  }
+
+
+
+  .tweet-button{
+    background-color: rgb(94,177,236);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    width:70px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+  }
+  .tweet-button:hover{
+    box-shadow: 1px 1px 1px rgb(155, 152, 152);
+  }
+
+
+
+  .uber-button {
+    background-color: rgb(0,0,0);
+    color: white;
+    border: none;
+    height: 35px;
+    width: 100px;
+    border-radius: .5px;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 8px;
+    transition: opacity 1s;
+  }
+  .uber-button:hover{
+    opacity: .8;
+  }
+
+  .amazon-button {
+    background-color: rgb(255,216,20);
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    border: none;
+    height: 35px;
+    width: 140px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  .amazon-button:hover{
+    background-color: burlywood;
+    box-shadow: 2px 2px 1px rgb(148, 194, 161);
+    font-stretch: wider;
+  }
+.amazon-button:active{
+  font-stretch: semi-condensed;
+}
+
+  .git-button {
+    background-color: rgb(47, 158, 79);
+    color: white;
+    border: none;
+    font-weight: bolder;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-right: 8px;
+  }
+  .git-button:hover{
+    box-shadow: 1px 1px 1px rgb(148, 194, 161);
+  }
+  .git-button:active{
+    box-shadow: .5px .5px .5px rgb(148, 194, 161);
+  }
+
+
+  .linkedin-button {
+    background-color: rgb(10,102,194);
+    color: white;
+    border: none;
+    font-weight: bolder;
+    height: 35px;
+    width: 250px;
+    /* instead of using height and width , we can using padding as better alternative to the text inside a button or box */
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 8px;
+    /* spacing outside is margin and spacing inside is padding  */
+  }
+  .linkedin-button:hover{
+    background-color: blue;
+  }
+</style>
+

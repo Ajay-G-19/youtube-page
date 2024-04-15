@@ -1,0 +1,96 @@
+ /*instead of using several times,we can give all Paragraphs in sinle time */
+ p{
+  font-family: Arial;
+}
+/*class name has more priority specificity than selector/element name */
+.video-title{
+font-family: Arial;
+font-weight: bold;
+font-size: 19px;
+width: 290px;
+line-height: 25px;
+margin-bottom: 6px;
+}
+.view{
+font-family: Arial;
+font-size: 14px;
+color: rgb(96,96,96);
+margin-top: 6px;
+}
+.author{
+font-family: Arial;
+font-size: 14px;
+color: rgb(96,96,96);
+margin-top: 30px;
+}
+.desc{
+font-family: Arial;
+color: rgb(96,96,96);
+font-size: 14px;
+margin-top: 20px;
+margin-bottom: 40px;
+width: 290px;
+line-height: 20px;
+}
+.apple-text{
+font-family: Arial;
+font-size: 12px;
+background-color: rgb(213, 64, 64);
+padding-top: 18px;
+padding-bottom: 18px;
+color: white;
+text-align: center;
+}
+.shop-now{
+color:white
+}
+.shop-now:hover{
+text-decoration: underline;
+cursor: pointer;
+}
+
+.ist{
+font-family: Tahoma;
+}
+.big{
+font-family: Arial;
+font-size: x-large;
+font-weight: bold;
+width: 330px;
+}
+.sal{
+font-style: italic;
+font-size: medium;
+font-weight: 500;
+color: rgb(193, 48, 48);
+margin-top: 5px;
+}
+.price{
+font-size: x-large;
+font-weight: 500;
+width: 30%;
+display: inline-block;
+margin-bottom: 10px;
+}
+.us{
+font-size: small;
+color: dimgrey;
+font-weight: normal;
+margin-bottom: 10px;
+}
+.tod{
+font-size: small;
+color: rgb(47, 148, 52);
+width: 60%;
+}
+.aft{
+font-size: small;
+color: dimgrey;
+margin-top: 4px;
+width: 100%;
+display: inline-block;
+}
+.per{
+font-size: small;
+color: crimson;
+}
